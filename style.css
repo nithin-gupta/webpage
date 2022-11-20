@@ -1,6 +1,10 @@
-{
+body{
   font-family: sans-serif;
-
+    background-image: url("./background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .log-in-section{
   display: flex;
@@ -20,6 +24,7 @@ h2
   font-size: 30px;
   color: black;
   text-align: center;
+  font-family: cursive;
 }
 .input-items
 {
@@ -42,12 +47,14 @@ input::-webkit-input-placeholder{
 .log-in-button{
   padding: 10px 80px;
   background-color: royalblue;
-  font-size: 15px;
+  font-weight: bold;
   color: white;
   cursor: pointer;
-  display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: center;
+  border-radius: 10px;
+font-family: sans-serif;
+
 }
 .create-new-button{
   padding: 10px 80px;
@@ -58,10 +65,11 @@ input::-webkit-input-placeholder{
   font-weight: 600;
   cursor: pointer;
   display: flex;
-  justify-content: center;
   align-content: center;
+  text-align: center;
+
 }
 a{
-  text-decoration: none;
+  text-decoration: underline;
   display: block;
 }
